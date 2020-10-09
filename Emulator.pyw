@@ -242,8 +242,6 @@ def run_rom():
         
         if PC == 4096:
             done = True
-
-        sleep((1/cycles)/instpf)
         
         if ex:exit()
 
