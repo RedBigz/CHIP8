@@ -20,3 +20,7 @@ with open("out.bin","wb") as file:
 ```
 Inside ```file.write``` put your opcodes like this:
 ```b"\x12\x34"```
+### Emulator controls
++ 1234567890ABCDEF : The CHIP-8 Keypad
++ Z : Slow down clock speed
++ X : Speed up clock speed
