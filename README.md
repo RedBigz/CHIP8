@@ -15,8 +15,8 @@ When you read the compile.py file, you should see this:
 ```
 with open("out.bin","wb") as file:
   file.write(
-    #Stuff here
-  )
+    #Stuff
+    )
 ```
 Inside ```file.write``` put your opcodes like this:
 ```b"\x12\x34"```
